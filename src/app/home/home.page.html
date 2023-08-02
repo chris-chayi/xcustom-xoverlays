@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title>
+      Custom overlays
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-button (click)="openModal()" expand="full">Open standard modal</ion-button>
+  <ion-button (click)="openTransparentModal()" expand="full">Open transparent modal</ion-button>
+  <ion-button (click)="openBlurredModal()" expand="full">Open blurred modal</ion-button>
+  <ion-button (click)="openPopover($event)" expand="full">Open popover</ion-button>
+  <ion-button (click)="openAlert()" expand="full">Open standard alert</ion-button>
+  <ion-button (click)="openActionSheet()" expand="full">Open action sheet</ion-button>
+
+  <ion-button (click)="openModalAnimated()" id='openModalAnimated' expand="full">Open animated modal</ion-button>
+  <ion-button (click)="openAlertAnimated()" expand="full">Open animated alert</ion-button>
+
+</ion-content>
+<div id='hi'>test</div>
